@@ -188,6 +188,24 @@ DEPENDENCES
     margin-top: 3rem;
     
   }
+.link {
+  padding: var(--menuLinkPadding, 1.5rem 2.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lig {
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  will-change: color;
+  transition: color .25s ease-out;
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
   
   
 /*   
